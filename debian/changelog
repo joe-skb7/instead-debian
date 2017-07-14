@@ -1,0 +1,67 @@
+instead (3.0.1-1) unstable; urgency=low
+
+  * New upstream release (Closes: #867540).
+  * Rename instead-doc-base -> instead-doc-common.
+  * debian/control:
+    - Bump Standards-Version up to 4.0.0.
+    - Increase debhelper version up to 9.
+  * debian/rules:
+    - Move to CMake.
+    - Simplify rules script.
+  * debian/copyright:
+    - Change copyrights w.r.t. to new INSTEAD version.
+
+ -- Sam Protsenko <joe.skb7@gmail.com>  Sat, 08 Jul 2017 02:16:00 +0300
+
+instead (1.9.1-1) unstable; urgency=low
+
+  * New upstream release.
+  * New tutorial soundtrack from svenzzon, so old one is gone
+    and now package is not "-dfsg".
+  * Fix build on sid on amd64 (Closes: #713680).
+  * debian/control:
+    - Bumped up Standards-Version to 3.9.4.
+  * debian/watch:
+    - Update link to current INSTEAD repository.
+  * debian/copyright:
+    - Update INSTEAD site link.
+    - Update copyright for tutorial music.
+  * debian/control:
+    - Update INSTEAD site link.
+    - Update game repository link.
+  * patches/:
+    - Fix Lintian warnings:
+      - "desktop-entry-contains-encoding-key"
+      - "desktop-entry-lacks-keywords-entry"
+    - Fix "desktop-file-validate" tool warnings:
+      - "Icon" must not contain file extension
+      - "Version" entry must be desktop-file standard version,
+        not the application version
+
+ -- Sam Protsenko <joe.skb7@gmail.com>  Thu, 26 Sep 2013 23:50:00 +0300
+
+instead (1.8.3+dfsg1-1) unstable; urgency=low
+
+  * New upstream release (Closes: #664587).
+    + Non-free games/tutorial3/sv_ttt.xm from upstream replaced with free one
+      track.
+  * Removed linking patch as it's not necessary (fixed upstream).
+  * Added missed copyright for themes/default/sans*.ttf.
+  * Added patch fixes desktop entry.
+  * themes/default/sans*.ttf fonts replaced with system ones.
+  * Added doc-packages.
+  * Threaded make.
+
+ -- Sam Protsenko <joe.skb7@gmail.com>  Sat, 09 Mar 2013 22:40:00 +0200
+
+instead (1.6.1-1) unstable; urgency=low
+
+  * Fixed build for Hurd.
+
+ -- Sam Protsenko <joe.skb7@gmail.com>  Thu, 19 Jan 2012 15:09:11 +0200
+
+instead (1.6.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #641307).
+
+ -- Sam Protsenko <joe.skb7@gmail.com>  Sun, 15 Jan 2012 17:02:02 +0200

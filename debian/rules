@@ -1,0 +1,23 @@
+#!/usr/bin/make -f
+
+# Output every command that modifies files on the build system
+#export DH_VERBOSE = 1
+
+# Do not link against not used libraries brought by GTK+2.0 dependency
+export DEB_LDFLAGS_MAINT_APPEND = -Wl,--as-needed -Wl,--no-undefined
+
+# Install INSTEAD to /usr/games rather than to /usr/bin
+BINDIR = games
+# Put data into /usr/share/games/instead rather than /usr/share/instead
+DATADIR = share/games/instead
+# Override some variables in CMakeLists.txt
+CMAKE_CACHE_FLAGS = -DBINDIR=$(BINDIR) -DDATADIR=$(DATADIR)
+
+%:
+	dh $@ --buildsystem=cmake --parallel
+
+override_dh_auto_configure:
+	dh_auto_configure -- $(CMAKE_FLAGS) $(CMAKE_CACHE_FLAGS)
+
+override_dh_compress:
+	dh_compress --exclude=.pdf --exclude=.lua
