@@ -3,7 +3,7 @@
 # Output every command that modifies files on the build system
 #export DH_VERBOSE = 1
 
-# Do not link against not used libraries brought by GTK+2.0 dependency
+# Do not link against unused libraries brought by GTK+2.0 dependency
 export DEB_LDFLAGS_MAINT_APPEND = -Wl,--as-needed -Wl,--no-undefined
 
 # Install INSTEAD to /usr/games rather than to /usr/bin
