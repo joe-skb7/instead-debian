@@ -18,7 +18,7 @@ First of all, download last INSTEAD source tarball to this directory (before
 building the package):
 
 ```bash
-$ wget https://downloads.sourceforge.net/project/instead/instead/3.0.1/instead_3.0.1.tar.gz -O instead_3.0.1.orig.tar.gz
+$ wget https://downloads.sourceforge.net/project/instead/instead/3.1.0/instead_3.1.0.tar.gz -O instead_3.1.0.orig.tar.gz
 ```
 
 Now you can build the package using next command:
