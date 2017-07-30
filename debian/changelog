@@ -3,7 +3,7 @@ instead (3.1.0-1) unstable; urgency=low
   * New upstream release (Closes: #867540).
   * Rename instead-doc-base -> instead-doc-common.
   * debian/control:
-    - Bump Standards-Version up to 4.0.0.
+    - Bump Standards-Version up to 3.9.8.
     - Increase debhelper version up to 9.
   * debian/rules:
     - Move to CMake.
