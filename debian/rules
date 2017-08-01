@@ -3,6 +3,9 @@
 # Output every command that modifies files on the build system
 #export DH_VERBOSE = 1
 
+# Enable all hardening options
+export DEB_BUILD_MAINT_OPTIONS = hardening=+all
+
 # Do not link against unused libraries brought by GTK+2.0 dependency
 export DEB_LDFLAGS_MAINT_APPEND = -Wl,--as-needed -Wl,--no-undefined
 
