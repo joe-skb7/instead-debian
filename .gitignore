@@ -1,4 +1,6 @@
 *.tar.gz
+*.tar.gz.asc
 *.tar.xz
+*.tar.xz.asc
 build_amd64/
 build_i386/

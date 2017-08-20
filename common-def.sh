@@ -6,7 +6,8 @@
 
 # $1: path to packet dir that contains debian/ dir
 extract_ver() {
-	ls -1 $1 | grep .orig.tar.gz | sed -rn 's/.*_(.*)\.orig\.tar\.gz/\1/p'
+	ls -1 $1 | grep '.orig.tar.gz$' | \
+		sed -rn 's/.*_(.*)\.orig\.tar\.gz/\1/p'
 }
 
 # $1: path to packet dir that contains debian/ dir
