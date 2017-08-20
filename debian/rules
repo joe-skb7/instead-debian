@@ -13,6 +13,8 @@ export DEB_LDFLAGS_MAINT_APPEND = -Wl,--as-needed -Wl,--no-undefined
 BINDIR = games
 # Put data into /usr/share/games/instead rather than /usr/share/instead
 DATADIR = share/games/instead
+# Configure CMake build
+CMAKE_FLAGS = -DWITH_SDL2=1
 # Override some variables in CMakeLists.txt
 CMAKE_CACHE_FLAGS = -DBINDIR=$(BINDIR) -DDATADIR=$(DATADIR)
 
