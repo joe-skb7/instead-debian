@@ -1,4 +1,4 @@
-instead (3.1.1-1) unstable; urgency=low
+instead (3.1.2-1) unstable; urgency=low
 
   * New upstream release (Closes: #867540).
   * Fixed fonts dependencies (Closes: #861047).
