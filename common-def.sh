@@ -57,6 +57,11 @@ prepare() {
 	echo
 	echo "---> Preparing for building..."
 
+	if [ ! -f $instead_orig_tar ]; then
+		echo "Error: Orig tarball not found" >&2
+		exit 1
+	fi
+
 	tar -xzf $instead_orig_tar
 
 	old_deb_dir="$instead_dir/debian"
