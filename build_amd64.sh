@@ -46,6 +46,7 @@ move() {
 		mv $f "$build_dir_amd64"
 	done
 	cp -f instead_*.orig.tar.gz "$build_dir_amd64"
+	cp -f instead_*.orig.tar.gz.asc "$build_dir_amd64"
 
 	echo "=== Moving files to build dir [OK]"
 }
