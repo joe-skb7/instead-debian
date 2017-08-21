@@ -1,4 +1,4 @@
-instead (3.1.0-1) unstable; urgency=low
+instead (3.1.1-1) unstable; urgency=low
 
   * New upstream release (Closes: #867540).
   * Rename instead-doc-base -> instead-doc-common.
@@ -12,7 +12,7 @@ instead (3.1.0-1) unstable; urgency=low
   * debian/copyright:
     - Change copyrights w.r.t. to new INSTEAD version.
 
- -- Sam Protsenko <joe.skb7@gmail.com>  Mon, 21 Aug 2017 02:08:00 +0300
+ -- Sam Protsenko <joe.skb7@gmail.com>  Mon, 21 Aug 2017 13:21:00 +0300
 
 instead (1.9.1-1) unstable; urgency=low
 
