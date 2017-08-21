@@ -1,6 +1,7 @@
 instead (3.1.1-1) unstable; urgency=low
 
   * New upstream release (Closes: #867540).
+  * Fixed fonts dependencies (Closes: #861047).
   * Rename instead-doc-base -> instead-doc-common.
   * Use SDL2 instead of SDL1.
   * debian/control:
