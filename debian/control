@@ -47,6 +47,8 @@ Package: instead-doc-common
 Section: doc
 Architecture: all
 Depends: ${misc:Depends}
+Replaces: instead-doc-base
+Conflicts: instead-doc-base
 Description: Common documentation for INSTEAD
  This package contains base documentation (common for all languages).
  .
