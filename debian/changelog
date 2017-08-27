@@ -2,6 +2,7 @@ instead (3.1.2-1) unstable; urgency=low
 
   * New upstream release (Closes: #867540).
   * Fixed fonts dependencies (Closes: #861047).
+  * Remove menu entry.
   * Rename instead-doc-base -> instead-doc-common.
   * Use SDL2 instead of SDL1.
   * debian/control:
@@ -13,7 +14,7 @@ instead (3.1.2-1) unstable; urgency=low
   * debian/copyright:
     - Change copyrights w.r.t. to new INSTEAD version.
 
- -- Sam Protsenko <joe.skb7@gmail.com>  Mon, 21 Aug 2017 13:21:00 +0300
+ -- Sam Protsenko <joe.skb7@gmail.com>  Sun, 27 Aug 2017 14:13:00 +0300
 
 instead (1.9.1-1) unstable; urgency=low
 
