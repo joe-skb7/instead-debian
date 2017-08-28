@@ -1,11 +1,16 @@
 instead (3.1.2-2) unstable; urgency=low
 
+  * Remove menu entry.
+  * Add instead-doc-base to Conflicts and Replaces sections of
+    instead-doc-common.
+
+ -- Sam Protsenko <joe.skb7@gmail.com>  Mon, 28 Aug 2017 13:57:00 +0300
+
+instead (3.1.2-1) unstable; urgency=low
+
   * New upstream release (Closes: #867540).
   * Fixed fonts dependencies (Closes: #861047).
-  * Remove menu entry.
   * Rename instead-doc-base -> instead-doc-common.
-    - Add instead-doc-base to Conflicts and Replaces sections of
-      instead-doc-common.
   * Use SDL2 instead of SDL1.
   * debian/control:
     - Bump Standards-Version up to 4.0.0.
@@ -16,7 +21,7 @@ instead (3.1.2-2) unstable; urgency=low
   * debian/copyright:
     - Change copyrights w.r.t. to new INSTEAD version.
 
- -- Sam Protsenko <joe.skb7@gmail.com>  Sun, 27 Aug 2017 16:16:00 +0300
+ -- Sam Protsenko <joe.skb7@gmail.com>  Mon, 21 Aug 2017 13:21:00 +0300
 
 instead (1.9.1-1) unstable; urgency=low
 
