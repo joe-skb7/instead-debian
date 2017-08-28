@@ -13,7 +13,7 @@ build() {
 	echo "---> Start building deb..."
 
 	cd $instead_dir
-	debuild --lintian-opts -i
+	debuild -sa --lintian-opts -i
 	res=$?
 	cd $cur_dir
 	if [ $res -eq 0 ]; then
