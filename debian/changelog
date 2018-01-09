@@ -1,3 +1,11 @@
+instead (3.2.1-1) unstable; urgency=low
+
+  * New upstream release (Closes: #896061).
+  * debian/control:
+    - Bump Standards-Version up to 4.1.4.
+
+ -- Sam Protsenko <joe.skb7@gmail.com>  Wed, 25 Apr 2018 01:32:00 +0300
+
 instead (3.1.2-2) unstable; urgency=low
 
   * Remove menu entry.
