@@ -1,6 +1,7 @@
 instead (3.2.1-1) unstable; urgency=low
 
   * New upstream release (Closes: #896061).
+  * Remove doc packages (until English translation of new doc is out)
   * debian/control:
     - Bump Standards-Version up to 4.1.4.
 
