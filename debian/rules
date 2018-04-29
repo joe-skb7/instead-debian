@@ -19,7 +19,7 @@ CMAKE_FLAGS = -DWITH_SDL2=1
 CMAKE_CACHE_FLAGS = -DBINDIR=$(BINDIR) -DDATADIR=$(DATADIR)
 
 %:
-	dh $@ --buildsystem=cmake --parallel
+	dh $@ --buildsystem=cmake
 
 override_dh_auto_configure:
 	dh_auto_configure -- $(CMAKE_FLAGS) $(CMAKE_CACHE_FLAGS)
