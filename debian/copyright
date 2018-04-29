@@ -1,14 +1,14 @@
-Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: INSTEAD
 Upstream-Contact: Peter Kosyh <p.kosyh@gmail.com>
 Source: https://github.com/instead-hub/instead/
 
 Files: *
-Copyright: 2009-2017, Peter Kosyh <p.kosyh@gmail.com>
+Copyright: 2009-2018, Peter Kosyh <p.kosyh@gmail.com>
 License: Expat
 
 Files: debian/*
-Copyright: 2011-2017, Sam Protsenko <joe.skb7@gmail.com>
+Copyright: 2011-2018, Sam Protsenko <joe.skb7@gmail.com>
 License: GPL-2
 
 Files: games/tutorial3/instead.ogg
@@ -89,7 +89,7 @@ License: GPL-2
  GNU General Public License for more details.
  .
  You should have received a copy of the GNU General Public License
- along with this program. If not, see <http://www.gnu.org/licenses/>
+ along with this program. If not, see <https://www.gnu.org/licenses/>
  .
  On Debian systems, the complete text of the GNU General
  Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
@@ -374,7 +374,7 @@ License: CC0
        this CC0 or use of the Work.
  .
  License text also available at
- http://creativecommons.org/publicdomain/zero/1.0/
+ https://creativecommons.org/publicdomain/zero/1.0/
 
 License: CC-BY-SA-3.0
  Creative Commons Attribution-ShareAlike 3.0 Unported
@@ -415,7 +415,7 @@ License: CC-BY-SA-3.0
  this License.
  .
  "Creative Commons Compatible License" means a license that is listed at
- http://creativecommons.org/compatiblelicenses that has been approved by
+ https://creativecommons.org/compatiblelicenses that has been approved by
  Creative Commons as being essentially equivalent to this License, including,
  at a minimum, because that license:
  (i) contains terms that have the same purpose, meaning and effect as the
@@ -706,4 +706,4 @@ License: CC-BY-SA-3.0
  intended to restrict the license of any rights under applicable law.
  .
  License text also available at
- http://creativecommons.org/licenses/by-sa/3.0/
+ https://creativecommons.org/licenses/by-sa/3.0/
