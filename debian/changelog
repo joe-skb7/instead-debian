@@ -2,15 +2,26 @@ instead (3.2.1-1) unstable; urgency=low
 
   * New upstream release (Closes: #896061).
   * Remove doc packages (until English translation of new doc is out).
-  * debian/patches: Remove fix-hurd-build patch (fixed upstream).
+  * debian/compat:
+    - Update debhelper version (from 9 to 11).
   * debian/control:
     - Bump Standards-Version up to 4.1.4.
     - Increase debhelper version up to 11.
     - Replace liblua5.1-dev with liblua5.1-0-dev.
-  * debian/copyright: Remove the entry for doc/examples/sfxr.lua file,
-    as it was removed upstream.
+    - Update links for "Homepage" and "Game repository".
+    - Remove doc packages (see above).
+    - Remove "Suggests: instead-doc-*" (see above).
+  * debian/copyright:
+    - Remove the entry for doc/examples/sfxr.lua file as it was removed
+      upstream.
+    - Update copyright dates (from 2017 to 2018).
+    - Update licenses links (use https instead of http).
+  * debian/patches:
+    - Remove fix-hurd-build patch (fixed upstream).
+  * debian/rules:
+    - Remove "--parallel" parameter.
 
- -- Sam Protsenko <joe.skb7@gmail.com>  Sun, 01 Jul 2018 19:47:00 +0300
+ -- Sam Protsenko <joe.skb7@gmail.com>  Sun, 01 Jul 2018 20:02:00 +0300
 
 instead (3.1.2-2) unstable; urgency=low
 
