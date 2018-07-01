@@ -7,8 +7,10 @@ instead (3.2.1-1) unstable; urgency=low
     - Bump Standards-Version up to 4.1.4.
     - Increase debhelper version up to 11.
     - Replace liblua5.1-dev with liblua5.1-0-dev.
+  * debian/copyright: Remove the entry for doc/examples/sfxr.lua file,
+    as it was removed upstream.
 
- -- Sam Protsenko <joe.skb7@gmail.com>  Sun, 01 Jul 2018 18:44:00 +0300
+ -- Sam Protsenko <joe.skb7@gmail.com>  Sun, 01 Jul 2018 19:47:00 +0300
 
 instead (3.1.2-2) unstable; urgency=low
 
