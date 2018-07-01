@@ -1,12 +1,13 @@
 instead (3.2.1-1) unstable; urgency=low
 
   * New upstream release (Closes: #896061).
-  * Remove doc packages (until English translation of new doc is out)
+  * Remove doc packages (until English translation of new doc is out).
+  * debian/patches: Remove fix-hurd-build patch (fixed upstream).
   * debian/control:
     - Bump Standards-Version up to 4.1.4.
     - Increase debhelper version up to 11.
 
- -- Sam Protsenko <joe.skb7@gmail.com>  Sun, 29 Apr 2018 15:27:00 +0300
+ -- Sam Protsenko <joe.skb7@gmail.com>  Sun, 01 Jul 2018 18:32:00 +0300
 
 instead (3.1.2-2) unstable; urgency=low
 
