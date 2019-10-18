@@ -64,8 +64,9 @@ Description: English documentation for INSTEAD
  This package contains game developer manual and examples in English.
  Manual describes basic API in Lua and how to create games for INSTEAD engine.
  .
- Unfortunately, complete and latest documentation currently available only
- in Russian.
+ Complete and latest documentation is only available in Russian, and even
+ though its English counterpart is being translated and maintained, it may lag
+ behind a little bit.
 
 Package: instead-doc-ru
 Section: doc

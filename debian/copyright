@@ -11,11 +11,6 @@ Files: debian/*
 Copyright: 2011-2018, Sam Protsenko <joe.skb7@gmail.com>
 License: GPL-2
 
-Files: doc/examples/sfxr.lua
-Copyright: 2014-2016, Tomas Pettersson
-           2016-2017, Peter Kosyh <p.kosyh@gmail.com>
-License: Expat
-
 Files: doc/examples/webinst.lua
 Copyright: 2013, Gavin Kistner <gavin@phrogz.net>
            2016-2017, Peter Kosyh <p.kosyh@gmail.com>

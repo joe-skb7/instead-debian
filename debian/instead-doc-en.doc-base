@@ -6,6 +6,5 @@ Abstract: This manual describes how to create games for INSTEAD engine.
  in Russian.
 Section: Games/Adventure
 
-Format: HTML
-Index: /usr/share/doc/instead/manual/html/en/index.html
-Files: /usr/share/doc/instead/manual/html/en/*.html
+Format: PDF
+Files: /usr/share/doc/instead/manual/pdf/en/*.pdf
