@@ -6,6 +6,7 @@ instead (3.3.1-1) unstable; urgency=low
     - Increase debhelper version up to 12.
   * debian/control:
     - Bump Standards-Version up to 4.4.1.
+    - Add "Rules-Requires-Root: no" field.
   * debian/copyright:
     - Update dates.
   * debian/not-installed:
@@ -13,7 +14,7 @@ instead (3.3.1-1) unstable; urgency=low
   * debian/upstream/metadata:
     - Add metadata file to provide upstream info for UMEGAYA.
 
- -- Sam Protsenko <joe.skb7@gmail.com>  Fri, 18 Oct 2019 17:20:00 +0300
+ -- Sam Protsenko <joe.skb7@gmail.com>  Fri, 18 Oct 2019 17:24:00 +0300
 
 instead (3.2.2-1) unstable; urgency=low
 
