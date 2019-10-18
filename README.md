@@ -18,8 +18,8 @@ First of all, download last INSTEAD source tarball to this directory (before
 building the package), along with the signature file:
 
 ```bash
-$ wget https://downloads.sourceforge.net/project/instead/instead/3.3.0/instead_3.3.0.tar.gz -O instead_3.3.0.orig.tar.gz
-$ wget https://downloads.sourceforge.net/project/instead/instead/3.3.0/instead_3.3.0.tar.gz.asc -O instead_3.3.0.orig.tar.gz.asc
+$ wget https://downloads.sourceforge.net/project/instead/instead/3.3.1/instead_3.3.1.tar.gz -O instead_3.3.1.orig.tar.gz
+$ wget https://downloads.sourceforge.net/project/instead/instead/3.3.1/instead_3.3.1.tar.gz.asc -O instead_3.3.1.orig.tar.gz.asc
 ```
 
 Now you can build the package using next command:
