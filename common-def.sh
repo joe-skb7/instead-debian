@@ -35,7 +35,10 @@ instead_${verd}_amd64.buildinfo \
 instead_${verd}_source.changes \
 instead_${verd}.debian.tar.xz \
 instead_${verd}.dsc \
-instead-data_${verd}_all.deb"
+instead-data_${verd}_all.deb \
+instead-doc-common_${verd}_all.deb \
+instead-doc-en_${verd}_all.deb \
+instead-doc-ru_${verd}_all.deb"
 # _source.changes is only created by i386 build process
 
 # ---- FUNCTIONS ----
