@@ -5,7 +5,9 @@ instead (3.3.1-1) unstable; urgency=low
     - Bump Standards-Version up to 4.3.0.
   * debian/upstream/metadata:
     - Add metadata file to provide upstream info for UMEGAYA
-  * Bring back doc packages (Engish translation is ok now).
+  * Bring back doc packages (English translation is ok now).
+  * debian/copyright:
+    - Update dates
 
  -- Sam Protsenko <joe.skb7@gmail.com>  Fri, 18 Oct 2019 15:26:00 +0300
 

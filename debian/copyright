@@ -4,11 +4,11 @@ Upstream-Contact: Peter Kosyh <p.kosyh@gmail.com>
 Source: https://github.com/instead-hub/instead/
 
 Files: *
-Copyright: 2009-2018, Peter Kosyh <p.kosyh@gmail.com>
+Copyright: 2009-2019, Peter Kosyh <p.kosyh@gmail.com>
 License: Expat
 
 Files: debian/*
-Copyright: 2011-2018, Sam Protsenko <joe.skb7@gmail.com>
+Copyright: 2011-2019, Sam Protsenko <joe.skb7@gmail.com>
 License: GPL-2
 
 Files: doc/examples/webinst.lua
