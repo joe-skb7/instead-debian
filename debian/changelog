@@ -8,10 +8,12 @@ instead (3.3.1-1) unstable; urgency=low
     - Bump Standards-Version up to 4.4.1.
   * debian/copyright:
     - Update dates.
+  * debian/not-installed:
+    - Add not-installed file to skip instead.txt installation.
   * debian/upstream/metadata:
     - Add metadata file to provide upstream info for UMEGAYA.
 
- -- Sam Protsenko <joe.skb7@gmail.com>  Fri, 18 Oct 2019 16:33:00 +0300
+ -- Sam Protsenko <joe.skb7@gmail.com>  Fri, 18 Oct 2019 17:20:00 +0300
 
 instead (3.2.2-1) unstable; urgency=low
 
