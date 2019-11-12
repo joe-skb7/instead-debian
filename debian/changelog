@@ -9,12 +9,15 @@ instead (3.3.1-1) unstable; urgency=low
     - Add "Rules-Requires-Root: no" field.
   * debian/copyright:
     - Update dates.
+    - Add missing authors to src/SDL_anigif.* files.
+    - Fix license (change from LGPL-2.1 to correct Zlib) for files:
+      src/SDL_gfxBlitFunc.*, src/SDL_rotozoom.*, src/SDL2_rotozoom.*.
   * debian/not-installed:
     - Add not-installed file to skip instead.txt installation.
   * debian/upstream/metadata:
     - Add metadata file to provide upstream info for UMEGAYA.
 
- -- Sam Protsenko <joe.skb7@gmail.com>  Fri, 18 Oct 2019 17:24:00 +0300
+ -- Sam Protsenko <joe.skb7@gmail.com>  Tue, 12 Nov 2019 21:28:00 +0200
 
 instead (3.2.2-1) unstable; urgency=low
 
