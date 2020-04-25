@@ -1,6 +1,7 @@
-instead (3.3.1-1) unstable; urgency=low
+instead (3.3.2-1) unstable; urgency=low
 
   * New upstream release.
+  * Fix build error on sid/amd64 in SDL_anigif.c (Closes: #713680).
   * Bring back doc packages (English translation is ok now).
   * debian/compat:
     - Increase debhelper version up to 12.
@@ -17,7 +18,7 @@ instead (3.3.1-1) unstable; urgency=low
   * debian/upstream/metadata:
     - Add metadata file to provide upstream info for UMEGAYA.
 
- -- Sam Protsenko <joe.skb7@gmail.com>  Tue, 12 Nov 2019 21:28:00 +0200
+ -- Sam Protsenko <joe.skb7@gmail.com>  Sat, 25 Apr 2020 21:15:00 +0300
 
 instead (3.2.2-1) unstable; urgency=low
 
