@@ -1,3 +1,10 @@
+instead (3.3.2-2) unstable; urgency=low
+
+  * debian/rules:
+    - Remove custom LDFLAGS.
+
+ -- Sam Protsenko <joe.skb7@gmail.com>  Mon, 11 May 2020 21:56:00 +0300
+
 instead (3.3.2-1) unstable; urgency=low
 
   * New upstream release.

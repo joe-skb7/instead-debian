@@ -6,9 +6,6 @@
 # Enable all hardening options
 export DEB_BUILD_MAINT_OPTIONS = hardening=+all
 
-# Do not link against unused libraries brought by GTK+2.0 dependency
-export DEB_LDFLAGS_MAINT_APPEND = -Wl,--as-needed -Wl,--no-undefined
-
 # Install INSTEAD to /usr/games rather than to /usr/bin
 BINDIR = games
 # Put data into /usr/share/games/instead rather than /usr/share/instead
