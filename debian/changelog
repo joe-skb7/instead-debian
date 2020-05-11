@@ -6,6 +6,8 @@ instead (3.3.2-2) unstable; urgency=low
     - Bump Standards-Version up to 4.5.0
   * debian/compat:
     - Increase debhelper version up to 13.
+  * debian/copyright:
+    - Remove webinst.lua entry.
 
  -- Sam Protsenko <joe.skb7@gmail.com>  Mon, 11 May 2020 23:27:00 +0300
 
