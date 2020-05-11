@@ -4,8 +4,10 @@ instead (3.3.2-2) unstable; urgency=low
     - Remove custom LDFLAGS.
   * debian/control:
     - Bump Standards-Version up to 4.5.0
+  * debian/compat:
+    - Increase debhelper version up to 13.
 
- -- Sam Protsenko <joe.skb7@gmail.com>  Mon, 11 May 2020 23:25:00 +0300
+ -- Sam Protsenko <joe.skb7@gmail.com>  Mon, 11 May 2020 23:27:00 +0300
 
 instead (3.3.2-1) unstable; urgency=low
 
